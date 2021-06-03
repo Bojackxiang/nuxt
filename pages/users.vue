@@ -2,11 +2,12 @@
   <div>
     <input type="text" v-model="inputUserId" />
     <button @click="goToUser">go to user {{ inputUserId }}</button>
-    <nuxt-child/>
+    <NuxtChild />
   </div>
 </template>
 <script>
 export default {
+  layout: 'users',
   data() {
     return {
       inputUserId: "",
