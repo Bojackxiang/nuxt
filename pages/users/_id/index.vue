@@ -6,12 +6,6 @@
 
 <script>
   export default {
-    validate(data){
-      console.log(data);
-      // return data.params.id === 1
-      console.log(data.params.id);
-      return data.params.id === '1'
-    }
   }
 </script>
 
