@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+
     <div>
       <Logo />
       <h1 class="title">
@@ -11,7 +12,13 @@
 </template>
 
 <script>
-export default {}
+
+
+export default {
+  components: {
+    
+  }
+}
 </script>
 
 <style>
